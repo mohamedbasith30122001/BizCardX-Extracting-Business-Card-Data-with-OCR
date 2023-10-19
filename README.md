@@ -69,23 +69,30 @@ for web in url:
 - Extract the other data using like this code
 ## c) Load  data
 ### Create Table and Insert into Postgresql
-- After creating dataframe insert the dataframe into sql  inner server by using postgresql
+- After insert the dataframe into sql  inner server by using postgresql
 - To Establish the connection with sql server
 - below table to reference another tables 
 ```python
 #postgresql connect
-import psycopg2
 cont=psycopg2.connect(host='localhost',user='postgres',password='basith',port=5432,database='basith')
 csr=cont.cursor()
 ```
 ```python
 #create tables
-csr.execute("""create table if not exists aggregated_transaction(State varchar(--),
-            Transaction_Year int,
-            Quater int,
-            Transaction_Type  varchar(--),
-            Transaction_Count bigint,
-            Transaction_Amount double precision)""")
+csr.execute("""CREATE TABLE if not exists biz_card_data (
+                 id SERIAL PRIMARY KEY,
+                 name VARCHAR(255),
+                 designation VARCHAR(255),
+                 company VARCHAR(255),
+                 contact VARCHAR(255),
+                 email VARCHAR(255),
+                 website VARCHAR(255),
+                 address VARCHAR(255),
+                 city VARCHAR(255),
+                 state VARCHAR(255),
+                 pincode VARCHAR(255),
+                 image bytea )""")
+cont.commit()
 ```
 
     
