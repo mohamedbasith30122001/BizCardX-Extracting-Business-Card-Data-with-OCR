@@ -39,5 +39,53 @@ import json
 ```python
 pip install<module name>
 ```
+# E T L Process
+## a) Extract data
+* Initially, we extract the data from business card by using CV2 and EasyOCR.
+- Inorder to fetch the data into to use below code
+```python
+reader=easyocr.Reader(['en'])
+results = reader.readtext(image)
+for i in results:
+    st.write(f"###### {i[1]}")
+```
+- Inorder to text extraction bounding image and thresholding
+```python
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+new, binary = cv2.threshold(gray, 127, 255, cv2.THRESH_BINARY)
+```
+## b) Process and Transform the data
+### Fetch data
+- Extract the data using the code below  
+```python
+#Website
+url_pattern = r"www\.[A-Za-z0-9]+\.[A-Za-z]{2,3}"
+url = re.findall(url_pattern, card)
+URL = ''
+for web in url:
+    URL = URL + web
+    card = card.replace(web, '')
+```
+- Extract the other data using like this code
+## c) Load  data
+### Create Table and Insert into Postgresql
+- After creating dataframe insert the dataframe into sql  inner server by using postgresql
+- To Establish the connection with sql server
+- below table to reference another tables 
+```python
+#postgresql connect
+import psycopg2
+cont=psycopg2.connect(host='localhost',user='postgres',password='basith',port=5432,database='basith')
+csr=cont.cursor()
+```
+```python
+#create tables
+csr.execute("""create table if not exists aggregated_transaction(State varchar(--),
+            Transaction_Year int,
+            Quater int,
+            Transaction_Type  varchar(--),
+            Transaction_Count bigint,
+            Transaction_Amount double precision)""")
+```
 
     
