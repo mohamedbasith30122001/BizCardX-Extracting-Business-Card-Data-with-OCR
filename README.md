@@ -94,5 +94,12 @@ csr.execute("""CREATE TABLE if not exists biz_card_data (
                  image bytea )""")
 cont.commit()
 ```
+```python
+sql = """INSERT INTO biz_card_data (name,designation,company,contact,email,website,address,city,state,pincode,image) 
+                                                VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"""
+val = (name,designation,company,Phone,Email_id,URL,Address,city,state,Pincode,file_bytes)
+csr.execute(sql, val)
+cont.commit()
+```
 
     
