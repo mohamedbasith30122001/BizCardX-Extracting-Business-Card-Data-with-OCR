@@ -17,3 +17,31 @@ management system like SQLite or MySQL or PostgreSQL.
 ## problem solution:
 ### what i did for project solution:
 Python environment (Python 3.x recommended) Streamlit, Pandas, easyOCR, PIL, cv2, matplotlib, re, Psycopg2 libraries installed postgresql server setup and running Features **Home**: Displays an overview of the app including technologies used and a brief description of the app. **Upload & Extract**: This section allows the user to upload an image of a business card. The application then processes the image and extracts data such as company name, card holder name, designation, mobile number, email, website, area, city, state, pin code, and the image of the card. **Modify**: This section allows users to select an entry from the database using a dropdown menu, which they can then update or **delete**. The changes are committed to the database. How to Run Clone the repository or download the python script. Run the script using the command line: streamlit run bizcard_project.py The application will open in a new tab of your web browser. You can then navigate through the application, upload images of business cards, and view or modify the extracted data. Note: Ensure your PostgreSQL server is running and the database details in the script match your PostgreSQL setup.
+
+## Importing required libraries
+### Import Data Handling libraries
+```python
+import pandas as pd
+import numpy as np
+```
+### Import Text processing 
+``` python import easyocr
+import cv2
+import re    #text processing
+```
+### Import Dashboard libraries
+```python
+import streamlit as st
+from PIL import Image
+from streamlit_option_menu import option_menu
+from streamlit_lottie import st_lottie
+```
+### Import Clone libraries
+```python
+import requests
+import json
+```
+### if the module shows any error or module not found it can be overcome by using below command
+```python
+pip install<module name>
+```
