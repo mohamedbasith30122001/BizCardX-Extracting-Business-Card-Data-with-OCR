@@ -101,5 +101,39 @@ val = (name,designation,company,Phone,Email_id,URL,Address,city,state,Pincode,fi
 csr.execute(sql, val)
 cont.commit()
 ```
+# E D A Process 
+
+## a) Access PostgreSQL DB to Modify 
+
+* Create a connection to the postgreSQL server and access the specified postgreSQL DataBase by using **psycopg2** library
+```python
+selection = st.selectbox("Select specific column to update", column_names)
+new_data = st.text_input(f"Enter the new {selection}")
+# Define the SQL query to update the selected rows
+sql = f"UPDATE biz_card_data SET {selection} = %s WHERE name = %s AND designation = %s"
+# Execute the query with the new values
+if st.button("Update"):
+    csr.execute(sql, (new_data, selection_name, selection_designation))
+    # Commit the changes to the database
+    cont.commit()
+    st.success("updated successfully",icon="👆")
+```
+## b) Deleting the data
+```python
+selection_name = st.selectbox("Select name to delete", row_name)
+if st.button('DELETE'):
+    sql = "DELETE FROM biz_card_data WHERE name = %s AND designation = %s"
+# Execute the query with the values as a tuple
+    csr.execute(sql, (selection_name, selection_designation))
+    cont.commit()
+    st.success('###### Deleted successfully',icon='✅')
+```
+- create the streamlit app with basic tabs [Reference](https://docs.streamlit.io/library/api-reference)
+- visualizing the data in streamlit
+- streamlit run <filename.py> to run terminal
+# Conclusion
+- in this project to easly find and extract the data in business cards
+## Outputs and Streamlit UI
+
 
     
