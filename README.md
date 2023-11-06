@@ -155,13 +155,14 @@ if st.button('DELETE'):
 - in this project to easly find and extract the data in business cards
 ## Outputs and Streamlit UI
 ### Home - page:
-![Outlook](https://github.com/mohamedbasith30122001/Airbnb_Analysis/blob/main/Airbnb_project_github/Dashboard%201.png)
+![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_home.png)
 ### Upload - page:
-![Outlook](https://github.com/mohamedbasith30122001/Airbnb_Analysis/blob/main/Airbnb_project_github/Dashboard%201.png)
+![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_upload_extract.png)
 ### Modify - page:
-![Outlook](https://github.com/mohamedbasith30122001/Airbnb_Analysis/blob/main/Airbnb_project_github/Dashboard%201.png)
+![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_modify.png)
+![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_delete.png)
 ### About - page:
-![Outlook](https://github.com/mohamedbasith30122001/Airbnb_Analysis/blob/main/Airbnb_project_github/Dashboard%201.png)
+![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_about.png)
 
 
     
