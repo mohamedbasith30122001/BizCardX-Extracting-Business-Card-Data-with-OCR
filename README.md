@@ -9,6 +9,18 @@ In addition, the application should allow users to save the extracted informatio
 - Techonlgies used:Python, Streamlit, easyOCR, and a database
 management system like SQLite or MySQL or PostgreSQL.
 - The application should have a simple and intuitive user interface that guides users through the process of uploading the business card image and extracting its information. The extracted information should be displayed in a clean and organized manner, and users should be able to easily add it to the database with the click of a button. And Allow the user to Read the data,Update the data and Allow the user to delete the data through the streamlit UI
+## Libraries
+### Libraries/Modules needed for the project!
+- Streamlit - (To Create Graphical user Interface)
+- Psycopg2 - (To Create local database and interact with data)
+- Json - (To read the data or Json files and convert Json format)
+- PIL - (To Insert and Use Image)
+- Easyocr - (To Create and Understand data in computer vision)(Optical Character Recognition)
+- cv2 - (To created the binding generators)
+- re -  (To use text processing)
+- Pandas - (To Clean and manipulate the data)
+- Numpy - (To use array and statistical value)
+- Time - (To use Time)
 ## problem solution:
 ### what i did for project solution:
 Python environment (Python 3.x recommended) Streamlit, Pandas, easyOCR, PIL, cv2, matplotlib, re, Psycopg2 libraries installed postgresql server setup and running Features **Home**: Displays an overview of the app including technologies used and a brief description of the app. **Upload & Extract**: This section allows the user to upload an image of a business card. The application then processes the image and extracts data such as company name, card holder name, designation, mobile number, email, website, area, city, state, pin code, and the image of the card. **Modify**: This section allows users to select an entry from the database using a dropdown menu, which they can then update or **delete**. Note: Ensure your PostgreSQL server is running and the database details in the script match your PostgreSQL setup.
