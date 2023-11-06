@@ -3,13 +3,13 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Problemstatement ](#Problemstatement)
+- [Problem_statement ](#Problemstatement)
 - [Libraries](#Libraries/Modules)
 - [Problem solution](#Problemsolution)
 - [Conclusion](#Conclusion)
 # Introduction:
 - BizCardX: Extracting Business Card Data with OCR Overview BizCardX is a Streamlit web application which extracts data from business cards using Optical Character Recognition (OCR). Users can upload an image of a business card and the application uses the easyOCR library to extract relevant information from the card. The extracted information is then displayed in a user-friendly format and can be stored in a PostgreSql database for future reference.
-## Problemstatement:
+## Problem_statement:
 - developing a Streamlit application that allows users to upload an image of a business card and extract relevant information from it using
 easyOCR. The extracted information should include the company name, card holdername, designation, mobile number, email address, website URL, area, city, state,and pin code. The extracted information should then be displayed in the application's graphical user interface (GUI).
 In addition, the application should allow users to save the extracted information intoa database along with the uploaded business card image. The database should be able to store multiple entries, each with its own business card image and extracted information.
@@ -28,7 +28,7 @@ management system like SQLite or MySQL or PostgreSQL.
 - Pandas - (To Clean and manipulate the data)
 - Numpy - (To use array and statistical value)
 - Time - (To use Time)
-## Problem solution:
+## Problem_solution:
 ### what i did for project solution:
 ## workflow:
 #### Step 1 :
