@@ -154,7 +154,14 @@ if st.button('DELETE'):
 # Conclusion
 - in this project to easly find and extract the data in business cards
 ## Outputs and Streamlit UI
-
+### Home - page:
+![Outlook](https://github.com/mohamedbasith30122001/Airbnb_Analysis/blob/main/Airbnb_project_github/Dashboard%201.png)
+### Upload - page:
+![Outlook](https://github.com/mohamedbasith30122001/Airbnb_Analysis/blob/main/Airbnb_project_github/Dashboard%201.png)
+### Modify - page:
+![Outlook](https://github.com/mohamedbasith30122001/Airbnb_Analysis/blob/main/Airbnb_project_github/Dashboard%201.png)
+### About - page:
+![Outlook](https://github.com/mohamedbasith30122001/Airbnb_Analysis/blob/main/Airbnb_project_github/Dashboard%201.png)
 
 
     
