@@ -8,14 +8,14 @@
 - [Conclusion](#Conclusion)
 # Introduction:
 - BizCardX: Extracting Business Card Data with OCR Overview BizCardX is a Streamlit web application which extracts data from business cards using Optical Character Recognition (OCR). Users can upload an image of a business card and the application uses the easyOCR library to extract relevant information from the card. The extracted information is then displayed in a user-friendly format and can be stored in a PostgreSql database for future reference.
-## Problem_statement:
+# Problem_statement:
 - developing a Streamlit application that allows users to upload an image of a business card and extract relevant information from it using
 easyOCR. The extracted information should include the company name, card holdername, designation, mobile number, email address, website URL, area, city, state,and pin code. The extracted information should then be displayed in the application's graphical user interface (GUI).
 In addition, the application should allow users to save the extracted information intoa database along with the uploaded business card image. The database should be able to store multiple entries, each with its own business card image and extracted information.
 - Techonlgies used:Python, Streamlit, easyOCR, and a database
 management system like SQLite or MySQL or PostgreSQL.
 - The application should have a simple and intuitive user interface that guides users through the process of uploading the business card image and extracting its information. The extracted information should be displayed in a clean and organized manner, and users should be able to easily add it to the database with the click of a button. And Allow the user to Read the data,Update the data and Allow the user to delete the data through the streamlit UI
-## Libraries
+# Libraries
 ### Libraries/Modules needed for the project!
 - Streamlit - (To Create Graphical user Interface)
 - Psycopg2 - (To Create local database and interact with data)
@@ -27,7 +27,7 @@ management system like SQLite or MySQL or PostgreSQL.
 - Pandas - (To Clean and manipulate the data)
 - Numpy - (To use array and statistical value)
 - Time - (To use Time)
-## Problem_solution:
+# Problem_solution:
 ### what i did for project solution:
 ## workflow:
 #### Step 1 :
