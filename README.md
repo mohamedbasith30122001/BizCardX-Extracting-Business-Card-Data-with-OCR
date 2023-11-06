@@ -23,7 +23,15 @@ management system like SQLite or MySQL or PostgreSQL.
 - Time - (To use Time)
 ## problem solution:
 ### what i did for project solution:
-Python environment (Python 3.x recommended) Streamlit, Pandas, easyOCR, PIL, cv2, matplotlib, re, Psycopg2 libraries installed postgresql server setup and running Features **Home**: Displays an overview of the app including technologies used and a brief description of the app. **Upload & Extract**: This section allows the user to upload an image of a business card. The application then processes the image and extracts data such as company name, card holder name, designation, mobile number, email, website, area, city, state, pin code, and the image of the card. **Modify**: This section allows users to select an entry from the database using a dropdown menu, which they can then update or **delete**. Note: Ensure your PostgreSQL server is running and the database details in the script match your PostgreSQL setup.
+## workflow:
+#### Step 1 :
+- Python environment (Python 3.x recommended) Streamlit, Pandas, easyOCR, PIL, cv2, matplotlib, re, Psycopg2 libraries installed postgresql server setup and running Features **Home**: Displays an overview of the app including technologies used and a brief description of the app. 
+#### Step 2 :
+- **Upload & Extract**: This section allows the user to upload an image of a business card. The application then processes the image and extracts data such as company name, card holder name, designation, mobile number, email, website, area, city, state, pin code, and the image of the card.
+#### Step 3 : 
+- **Modify**: This section allows users to select an entry from the database using a dropdown menu, which they can then update or **delete**. Note: Ensure your PostgreSQL server is running and the database details in the script match your PostgreSQL setup.
+#### Step 4 : 
+- **About** :This section allows users to knows as the project description and workflows.
 ## Importing required libraries
 ### Import Data Handling libraries
 ```python
@@ -146,6 +154,7 @@ if st.button('DELETE'):
 # Conclusion
 - in this project to easly find and extract the data in business cards
 ## Outputs and Streamlit UI
+
 
 
     
