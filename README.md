@@ -153,6 +153,10 @@ if st.button('DELETE'):
 - streamlit run <filename.py> to run terminal
 # Conclusion
 - in this project to easly find and extract the data in business cards
+- I Created the project to used to detecting the data from business card.
+- It mostly used to create the business enviroment and business partner (information) and other uses, store to our database this business card  information
+- Easy to see the all business card information and details and edit phone number, mail Id, and other details and delete unnecessary details.
+
 ## Outputs and Streamlit UI
 - ### Home - page:
 ![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_home.png)
