@@ -1,7 +1,6 @@
 # BizCardX-Extracting-Business-Card-Data-with-OCR
 ## BizCardX: Extracting Business Card Data with OCR using technologies OCR,streamlit GUI, SQL,Data Extraction with Python
 ## Table of Contents
-
 - [Introduction](#introduction)
 - [Problem_statement ](#Problem_statement)
 - [Libraries](#Libraries/Modules)
