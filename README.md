@@ -166,7 +166,7 @@ if st.button('DELETE'):
 ![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_modify.png)
 - ### Delete - page:
   ![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_delete.png)
-### About - page:
+ - ### About - page:
 ![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_about.png)
 
 
