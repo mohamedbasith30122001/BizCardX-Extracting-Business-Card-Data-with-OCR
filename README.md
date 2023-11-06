@@ -3,7 +3,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Problem Statement ](#Problemstatement)
+- [Problem statement ](#Problemstatement)
 - [Libraries](#Libraries/Modules)
 - [Problem solution](#Problemsolution)
 - [Conclusion](#Conclusion)
