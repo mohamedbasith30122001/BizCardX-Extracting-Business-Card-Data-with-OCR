@@ -154,13 +154,14 @@ if st.button('DELETE'):
 # Conclusion
 - in this project to easly find and extract the data in business cards
 ## Outputs and Streamlit UI
-### Home - page:
+- ### Home - page:
 ![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_home.png)
-### Upload - page:
+- ### Upload - page:
 ![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_upload_extract.png)
-### Modify - page:
+- ### Modify - page:
 ![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_modify.png)
-![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_delete.png)
+- ### Delete - page:
+  ![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_delete.png)
 ### About - page:
 ![Outlook](https://github.com/mohamedbasith30122001/BizCardX-Extracting-Business-Card-Data-with-OCR/blob/main/bizcard_project_github/output_pages/biz_about.png)
 
